@@ -1,0 +1,75 @@
+:root {
+    --beige: #fbf7f0;
+    --teal: #D9E4DD;
+    --textcolor: #555555;
+    --lightertext: #CDC9C3;
+    --robottext: 'Maven Pro', sans-serif;
+    --fancytext: 'Libre Baskerville', serif;
+}
+
+.tealtext {
+    color: var(--teal);
+}
+
+.back {
+    background-color: var(--lightertext);
+}
+
+.sidenavbar {
+    background-color: var(--lightertext);
+    color: var(--textcolor);
+    font-family: var(--robottext)
+}
+
+body {
+    color: var(--textcolor);
+    font-family: var(--fancytext);
+}
+
+/* about me page */
+.aboutme {
+    border: none;
+    border-top: 6px double var(--lightertext);
+    color: var(--textcolor);
+    overflow: visible;
+    text-align: center;
+    height: 40px;
+}
+
+.aboutme:after {
+    background: #fff;
+    content: 'About Me';
+    font-size: 40px;
+    padding: 0 4px;
+    position: relative;
+    top: -35px;
+}
+
+/* projects page */
+.tooltipped,
+.toasttext {
+    background-color: var(--teal);
+}
+
+.tooltipped:hover,
+.toasttext:hover {
+    background-color: #87AAAA;
+}
+
+.project {
+    border: none;
+    border-top: 6px double var(--lightertext);
+    color: var(--textcolor);
+    overflow: visible;
+    text-align: center;
+    height: 40px;
+}
+
+.project:after {
+    background: #fff;
+    content: 'Projects';
+    font-size: 40px;
+    padding: 0 4px;
+    position: relative;
+    top: -35px;
+}

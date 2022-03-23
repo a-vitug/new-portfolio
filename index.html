@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allyson Vitug</title>
+    
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f513bbdf7f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <!-- <nav class="transparent">  -->
+        <!-- navbar content here  --> 
+    
+    <!-- </nav> -->
+
+    <br>
+    
+    <!-- sidenav -->
+    <div class="container row col s10 m4 l3 ">
+        <!-- <div class="row">
+            <div class=""> -->
+
+            <ul id="slide-out" class="sidenav sidenavbar">
+
+                <div class="container-fluid">
+                    <div class="background">
+                        <img class="responsive-img" src="./img/portfolio-logo.png">
+                    </div>
+                </div>
+
+                <div class="user-view">
+                    <a href="#user"><img class="circle responsive-img" src="./img/avatar.jpeg"></a>
+                    <a href="#name"><span class="tealtext">Allyson Vitug</span></a>
+                    <a href="#email"><span class="tealtext">allyson_vitug@yahoo.com</span></a>
+                </div>
+
+                <li><div class="divider"></div></li>
+                
+                <li><a class="waves-effect" href="https://github.com/a-vitug"><i class="fa-brands fa-github fa-lg"></i>Github</a></li>
+                <li><a class="waves-effect" href="https://www.linkedin.com/in/vtg-allyson"><i class="fa-brands fa-linkedin fa-lg"></i>LinkedIn</a></li>
+
+            </ul>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="tealtext fa-solid fa-house-user fa-2xl"></i></a>  
+
+            <!-- </div>
+        </div> -->
+    </div>
+
+    <!-- body -->
+    <div class="col s12 m8 l9">
+
+        <!-- about me page -->
+        <div class="container">
+            <div class="row">
+                <div>
+                    <hr class="aboutme">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- projects page -->
+        <div class="container">
+            <div class="row">
+
+                <div>
+                    <hr class="project">
+                </div>
+
+                <a class="btn tooltipped" data-position="bottom" data-tooltip="Hold the image and slide it to the right or left to see the projects." data-tooltip="">Just a tip</a>
+                <a onclick="M.toast({html: 'Click the emojis to checkout the github repo and the actual site.', classes: 'toasttext',})" class="btn toasttext">Click Me!</a>
+
+                <div class="carousel carousel-slider">
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/oldportfolio.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Old Portfolio</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://a-vitug.github.io/portfolio/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/portfolio"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/codequiz.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Code Quiz</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/a-vitug/hw4_codequiz"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://a-vitug.github.io/hw4_codequiz/"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/passwordgen.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Password Generator</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/a-vitug/hw3_passwordGen"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://a-vitug.github.io/hw3_passwordGen/"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/mealplanner.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Meal Planner</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/a-vitug/Ingredient-to-Meal-Planner"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://famesmyname.github.io/Ingredient-to-Meal-Planner/"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/dayscheduler.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Day Planner</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/a-vitug/hw5_dayplanner"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://a-vitug.github.io/hw5_dayplanner/"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Contact Me Page -->
+
+        <!-- Element Showed -->
+        <div class="fixed-action-btn">
+            <a id="contact" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+        </div>
+
+        <a class="waves-effect waves-light btn" onclick="M.tap-target({})"></a>
+        
+        <!-- Tap Target Structure -->
+        <div class="tap-target" data-target="menu">
+            <div class="tap-target-content">
+            <h5>Title</h5>
+            <p>A bunch of text</p>
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+</body>
+
+    <!-- materialize js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+        M.AutoInit();
+    </script>
+
+</html>
