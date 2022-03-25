@@ -2,27 +2,43 @@
     --beige: #fbf7f0;
     --teal: #D9E4DD;
     --textcolor: #555555;
+    --darktext: #9D9D9D;
     --lightertext: #CDC9C3;
+    --cutetext: 'Questrial', sans-serif;
     --robottext: 'Maven Pro', sans-serif;
     --fancytext: 'Libre Baskerville', serif;
+    --sidetext: 'Raleway', sans-serif;
 }
 
 .tealtext {
     color: var(--teal);
 }
 
+.divider {
+    background-color: var(--textcolor);
+}
+
 .back {
     background-color: var(--lightertext);
 }
 
+.top {
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    top: 300px;
+}
+
 .sidenavbar {
-    background-color: var(--lightertext);
+    background-color: var(--teal);
     color: var(--textcolor);
     font-family: var(--robottext)
 }
 
 body {
-    color: var(--textcolor);
+    color: var(--darktext);
     font-family: var(--fancytext);
 }
 
@@ -38,14 +54,41 @@ body {
 
 .aboutme:after {
     background: #fff;
-    content: 'About Me';
-    font-size: 40px;
-    padding: 0 4px;
+    content: ' about me ';
+    font-size: 30px;
+    padding: 0 17px;
     position: relative;
-    top: -35px;
+    top: -30px;
+}
+
+.parallax-container {
+    height: 330px;
+}
+
+.darktext {
+    color: var(--darktext);
+}
+
+h2 {
+    color: var(--textcolor);
+    font-family: var(--cutetext);
+    font-size: 35px;
+}
+
+.spacebar {
+    display: inline-block;
+}
+
+p {
+    text-indent: 35px;
 }
 
 /* projects page */
+.carousel,
+.carousel-slider {
+    min-height: 900px;
+}
+
 .tooltipped,
 .toasttext {
     background-color: var(--teal);
@@ -67,9 +110,33 @@ body {
 
 .project:after {
     background: #fff;
-    content: 'Projects';
-    font-size: 40px;
-    padding: 0 4px;
+    content: ' projects ';
+    font-size: 30px;
+    padding: 0 17px;
     position: relative;
-    top: -35px;
+    top: -30px;
+}
+
+/* footer page */
+.footer {
+    background-color: var(--teal);
+}
+
+.contact {
+    border: none;
+    border-left: none;
+    border-top: 6px double var(--lightertext);
+    color: var(--textcolor);
+    overflow: visible;
+    text-align: center;
+    height: 40px;
+}
+
+.contact:after {
+    background: var(--teal);
+    content: ' contact us ';
+    font-size: 30px;
+    padding: 0 17px;
+    position: relative;
+    top: -30px;
 }
